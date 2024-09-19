@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triggering Events in HTML</title>
+    <link rel="=stylesheet" href="events.css">
+
+</head>
+
+<body>
+<h1>Triggering click events on HTML elements</h1>
+    <!-- A click on this button will trigger an event. -->
+<button id="incrementButton">Increase the Counter</button>
+<!-- The text and the numberOfClicks attribute change when the button is
+clicked. -->
+<span id="counter" numberOfClicks="0">0</span>
+<!-- This .js file is loaded and then runs after all other elements are
+loaded. -->
+<script src="events.js"></script>
+
+<div class = 'chartContainer' >
+    <p id = 'chartToggle' > Click to toggle chart visibility</p>
+    <img src = 'Image/toggle.png' id="chart1">
+</div>
+    
+</body>
+</html>
